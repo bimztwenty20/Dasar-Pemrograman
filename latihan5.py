@@ -6,6 +6,7 @@ Masukkan Nilai UAS : <Input Data Ke 1>
 Nim anda adalah <outputnim1> nilai UTS anda <outpututs1> nilai UTS anda
 <outputuas1>'''
 
+#For Python VSCode
 
 ulang = 1
 for i in range(ulang):
@@ -23,3 +24,14 @@ uts=int(input("Masukkan Nilai UTS anda :"))
 uas=int(input("Masukkan Nilai UAS : "))
 print("NIM anda adalah %s nilai UTS anda %i nilai UAS anda %i" % (nama,uts,uas))
 print("-------------------------------------\n")
+
+# For Jupyter Notebook
+
+ulang=2
+for i in range(ulang):
+    print ("data Ke - " + str(i+1))
+    nama=input("Masukkan NIM Anda : ")
+    uts=int(input("Masukkan Nilai UTS : "))
+    uas=int(input("Masukkan Nilai UAS : "))
+    print("NIM anda adalah %s nilai UTS anda %i nilai UTS anda %i" % (nama,uts,uas))
+    print("-------------------------------------\n")
